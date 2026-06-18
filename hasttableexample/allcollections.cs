@@ -36,6 +36,10 @@ namespace hasttableexample
             }
             Console.WriteLine("\n\n==================================");
             Queue q = new Queue();
+            foreach(var item in al)
+            {
+                q.Enqueue(item);
+            }
             q.Enqueue("raj");
             q.Enqueue("ravi");
             q.Enqueue("lucky");
