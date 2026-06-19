@@ -30,8 +30,15 @@ namespace hasttableexample
                 //    Console.WriteLine("key {0},value {1}", entry.Key, entry.Value);
                 //}
                 //Console.WriteLine("contains Key 1 {0}", ht.ContainsKey("1"));
-                allcollections ac = new allcollections();
-                ac.collections();
+               
+                //allcollections ac = new allcollections();
+                //ac.collections();
+               
+                //GenericList gl=new GenericList();
+                //gl.listexample();
+
+                GenericStack gs=new GenericStack();
+                gs.stackexample();
             }
         }
     }
