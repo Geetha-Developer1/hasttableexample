@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="allcollections.cs" />
+    <Compile Include="Dictionary.cs" />
     <Compile Include="GenericList.cs" />
+    <Compile Include="GenericQueue.cs" />
     <Compile Include="GenericStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
